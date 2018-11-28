@@ -1,0 +1,5 @@
+<div ng-class="loginBox" [formGroup]="userForm">
+  <input type="text" placeholder="username" formControlName="username">
+  <input type="text" placeholder="password" formControlName="password">
+  <input type="button" value="Submit" (click)="login()">
+</div>
